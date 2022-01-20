@@ -6,11 +6,11 @@ namespace CSVConvert
     {
         static void Main(string[] args)
         {
-            // instanciate parser to extract and parse information from XLSX to List Arrays
+            // instantiate parser to extract and parse information from XLSX to List Arrays
             ProductParser parser = new ProductParser();
-            // instanciate printer and pass Good List to write CSV files
+            // instantiate printer and pass Good List to write CSV files
             Printer printer = new Printer(parser.productList);
-            // instanciate workbook to write bad rows to XLSX
+            // instantiate workbook to write bad rows to XLSX
             WorkBook workbook = new WorkBook(parser.productErrorList);
             // instanciate error checking
             Error error = new Error();
