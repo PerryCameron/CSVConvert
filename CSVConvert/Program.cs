@@ -12,7 +12,7 @@ namespace CSVConvert
             Printer printer = new Printer(parser.productList);
             // instantiate workbook to write bad rows to XLSX
             WorkBook workbook = new WorkBook(parser.productErrorList);
-            // instanciate error checking
+            // instantiate error checking
             Error error = new Error();
 
             // get our arguments
