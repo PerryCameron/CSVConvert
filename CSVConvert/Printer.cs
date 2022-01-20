@@ -52,7 +52,7 @@ namespace CSVConvert
             String fullpath;
             for (i = 1; i < NumberOfFiles + iterate; i++)
             {
-                fullpath = OutputDir + "output" + i + ".txt";
+                fullpath = OutputDir + "output" + i + ".csv";
                 // path plus begin and end of List
                 PrintOutPutFile(fullpath, stop[i - 1], stop[i]);
             }
